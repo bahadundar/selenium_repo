@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.way2.Listener.CustomizeListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<test name="Test2">
+		<classes>
+			<class name="com.way2.TestNGExample.testcases.TestCase2" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test1">
+		<classes>
+
+			<class name="com.way2.TestNGExample.testcases.TestCase1" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+
+	<test name="Test3">
+		<classes>
+
+			<class name="com.way2.TestNGExample.testcases.TestCase3" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

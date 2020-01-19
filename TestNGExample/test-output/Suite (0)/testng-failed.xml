@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.way2.Listener.CustomizeListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.way2.TestNGExample.testcases.TestCase2">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="doLogin"/>
+          <include name="close"/>
+          <include name="openDBConnection"/>
+          <include name="launchBrowsers"/>
+          <include name="init"/>
+          <include name="closeDBConnection"/>
+        </methods>
+      </class> <!-- com.way2.TestNGExample.testcases.TestCase2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.way2.TestNGExample.testcases.TestCase3">
+        <methods>
+          <include name="doLogin"/>
+          <include name="close"/>
+          <include name="doRegister"/>
+          <include name="init"/>
+          <include name="doPayment"/>
+        </methods>
+      </class> <!-- com.way2.TestNGExample.testcases.TestCase3 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

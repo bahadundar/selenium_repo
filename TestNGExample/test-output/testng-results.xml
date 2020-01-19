@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="3" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-01-16T20:07:13 MEZ" name="Suite" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="439">
+    <groups>
+    </groups>
+    <test started-at="2020-01-16T20:07:13 MEZ" name="Test2" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="150">
+      <class name="com.way2.TestNGExample.testcases.TestCase2">
+        <test-method is-config="true" signature="openDBConnection()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="openDBConnection" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDBConnection -->
+        <test-method is-config="true" signature="launchBrowsers()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="launchBrowsers" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowsers -->
+        <test-method signature="doUserReg()[pri:1, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="doUserReg" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="closeBrowsers" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method signature="doLogin()[pri:2, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="doLogin" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="4" status="FAIL">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at com.way2.TestNGExample.testcases.TestCase2.doLogin(TestCase2.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="launchBrowsers()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="launchBrowsers" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowsers -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="closeBrowsers" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase2@9f116cc]" started-at="2020-01-16T20:07:13 MEZ" name="closeDBConnection" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- com.way2.TestNGExample.testcases.TestCase2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2020-01-16T20:07:13 MEZ" name="Test1" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="17">
+      <class name="com.way2.TestNGExample.testcases.TestCase1">
+        <test-method signature="compareCustomerResults()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase1@1623b78d]" started-at="2020-01-16T20:07:14 MEZ" name="compareCustomerResults" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareCustomerResults -->
+        <test-method signature="validateCustomerReqs()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase1@1623b78d]" started-at="2020-01-16T20:07:14 MEZ" name="validateCustomerReqs" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerReqs -->
+      </class> <!-- com.way2.TestNGExample.testcases.TestCase1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-01-16T20:07:14 MEZ" name="Test3" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="36">
+      <class name="com.way2.TestNGExample.testcases.TestCase3">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:13 MEZ" name="init" finished-at="2020-01-16T20:07:13 MEZ" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="doRegister()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:14 MEZ" name="doRegister" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.way2.TestNGExample.testcases.TestCase3.doRegister(TestCase3.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doLogin()[pri:1, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:14 MEZ" name="doLogin" finished-at="2020-01-16T20:07:14 MEZ" depends-on-methods="com.way2.TestNGExample.testcases.TestCase3.doRegister" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCase3.doLogin()[pri:1, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:1, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doOrder()[pri:2, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:14 MEZ" name="doOrder" finished-at="2020-01-16T20:07:14 MEZ" depends-on-methods="com.way2.TestNGExample.testcases.TestCase3.doRegister" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doOrder -->
+        <test-method signature="doPayment()[pri:3, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:14 MEZ" name="doPayment" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.way2.TestNGExample.testcases.TestCase3.doPayment(TestCase3.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank">see the screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg" target ="_blank"> <img width =400, height =200, src = "C:\Users\baha\eclipse-workspace\TestNGExample\test-output\img.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doPayment -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.way2.TestNGExample.testcases.TestCase3@2f9f7dcf]" started-at="2020-01-16T20:07:14 MEZ" name="close" finished-at="2020-01-16T20:07:14 MEZ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.way2.TestNGExample.testcases.TestCase3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization">
+	<test name="Test_Parameterization_1">
+		
+		<parameter name="browser" value="ff"></parameter>
+		<parameter name="env" value="ff_env"></parameter>
+		<classes>
+			<class name="parameterization.TestParameterizationXML" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test_Parameterization_2">
+		
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="env" value="chrome_env"></parameter>
+		<classes>
+			
+			<class name="parameterization.TestParameterizationXML" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+
+</suite> <!-- Suite -->
