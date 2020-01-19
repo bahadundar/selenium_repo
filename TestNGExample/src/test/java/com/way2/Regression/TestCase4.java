@@ -18,12 +18,7 @@ public class TestCase4 {
 
 	}
 
-	@Test(groups = "regression")
-	public void showResults() {
 
-		Assert.assertTrue(true);
-
-	}
 
 
 	
