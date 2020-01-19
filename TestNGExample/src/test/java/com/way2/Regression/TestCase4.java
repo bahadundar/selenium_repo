@@ -34,4 +34,11 @@ public class TestCase4 {
 
 	}
 	
+	@Test(groups = "regression")
+	public void showCustomers() {
+
+		Assert.assertTrue(true);
+
+	}
+	
 }
