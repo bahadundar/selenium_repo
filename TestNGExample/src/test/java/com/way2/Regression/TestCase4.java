@@ -18,4 +18,12 @@ public class TestCase4 {
 
 	}
 
+	
+	@Test(groups = "regression")
+	public void hideResults() {
+
+		Assert.assertTrue(true);
+
+	}
+	
 }
